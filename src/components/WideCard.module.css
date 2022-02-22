@@ -1,0 +1,28 @@
+.container {
+  width: 660px;
+  height: 184px;
+  border-radius: 15px;
+  position: relative;
+  margin: 2em 0;
+}
+
+.textContainer {
+  display: inline-block;
+  font-size: 24px;
+  left: 35px;
+  position: absolute;
+  text-align: left;
+}
+
+.topText {
+  padding: 3em 3em 0em 1em;
+}
+
+.bottomText {
+  padding: 0 0 0 1em;
+}
+.image {
+  position: absolute;
+  right: 5%;
+  top: 0% ;
+}

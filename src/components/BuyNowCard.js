@@ -20,10 +20,10 @@ export const BuyNowCard = ({ extended = false }) => {
                 </div>
                 <div>
                     <div style={{ padding: "1em" }}>
-                        <span style={{ fontWeight: "600" }}>Everyday</span>
+                        <span style={{ fontWeight: "600" }}>Everyday </span>
                         <span style={{ color: "gray", fontWeight: "400" }}> Fashion reviews</span></div>
                     <div style={{ padding: "1em" }}>
-                        <span style={{ fontWeight: "600" }}>Access to</span>
+                        <span style={{ fontWeight: "600" }}>Access to </span>
                         <span style={{ color: "gray", fontWeight: "400" }}>Limited collections</span></div>
                     <div style={{ padding: "1em" }}>
                         <span style={{ fontWeight: "600" }}>Up to 7 </span>

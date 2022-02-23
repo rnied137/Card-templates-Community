@@ -9,13 +9,15 @@ export const Cards = () => {
         backgroundColor: "lightgray",
         width: "100vw",
         height: "100%",
+        display: "grid",
+        placeItems: "center"
       }}
     >
-      <WideCard variant="jazzman" />
-      <WideCard variant="jazzman" light={false} />
-      <WideCard variant="girl" />
-      <WideCard variant="girl" light={false} />
-      <WideCard variant="watering" />
+      <WideCard variant="jazzman" text="Today listening to music" />
+      <WideCard variant="jazzman" text="Today listening to music" light={false} />
+      <WideCard variant="girl" text="Today shopping time" />
+      <WideCard variant="girl" text="Today shopping time" light={false} />
+      <WideCard variant="watering" text="Going through home stuff"/>
       <WideCard variant="watering" light={false} />
       <BuyNowCard/>
       <BuyNowCard extended/>

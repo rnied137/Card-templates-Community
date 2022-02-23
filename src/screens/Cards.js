@@ -1,5 +1,6 @@
 import React from "react";
 import { BuyNowCard } from "../components/BuyNowCard";
+import { FoodOrderCard } from "../components/FoodOrderCard";
 import { WideCard } from "../components/WideCard";
 
 export const Cards = () => {
@@ -21,6 +22,7 @@ export const Cards = () => {
       <WideCard variant="watering" light={false} />
       <BuyNowCard/>
       <BuyNowCard extended/>
+      <FoodOrderCard/>
     </div>
   );
 };

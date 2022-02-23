@@ -30,7 +30,7 @@ export const BuyNowCard = ({ extended = false }) => {
                         <span style={{ color: "gray", fontWeight: "400" }}> Personal consults</span></div>                
                         </div>
                 <div>
-                    <button style={{ width: "288px", height: "67px", padding: "1em 0", marginTop: "3em", backgroundColor: "#F8593B", color: "white", border: "none" }}> BUY NOW</button>
+                    <button style={{ cursor: "pointer", width: "288px", height: "67px", padding: "1em 0", marginTop: "3em", backgroundColor: "#F8593B", color: "white", border: "none" }}> BUY NOW</button>
                 </div>
             </div>
         </div>

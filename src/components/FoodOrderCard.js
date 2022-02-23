@@ -13,20 +13,20 @@ export const FoodOrderCard = ({ withPlaceholder = false }) => {
                 <InfoIcon style={{ position: "absolute", right: "0.5em", top: "0.5em" }} />
                 <img style={{ objectFit: "cover", width: "100%", height: "216px", borderTopLeftRadius: "15px", borderTopRightRadius: "15px" }} src={withPlaceholder ? imagePlaceholder : "https://picsum.photos/360/216"} alt="placeholder" />
             </div>
-            <div style={{ padding: "3em 2em" }}>
+            <div style={{ padding: "2em 2em" }}>
                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center", height: "24px" }}>
                     <span style={{ fontWeight: "bold", fontSize: "24px", textAlign: "left" }}>Pepperoni pizza</span>
                     <div>
-                        <div style={{ display: "inline-flex", justifyContent: "center", alignItems: "center", marginBottom: "auto", marginRight: "15px", backgroundColor: "red", width: "24px", height: "24px", borderRadius: "10px" }}>
+                        <div style={{ display: "inline-flex", justifyContent: "center", alignItems: "center", marginBottom: "auto", marginRight: "15px", backgroundColor: "red", width: "24px", height: "24px", borderRadius: "50%" }}>
                                 <FireIcon />
                         </div>
-                        <div style={{ display: "inline-flex", justifyContent: "center", alignItems: "center", backgroundColor: "blue", width: "24px", height: "24px", borderRadius: "10px" }}>
+                        <div style={{ display: "inline-flex", justifyContent: "center", alignItems: "center", backgroundColor: "#FFC22B", width: "24px", height: "24px", borderRadius: "50%" }}>
                                 <WheatIcon />
                         </div>
                     </div>
                 </div>
-                <p style={{ textAlign: "left" }}>Premium pepperoni and cheese is made with real mozzarella on original hand-tossed crust. </p>
-                <div style={{ color: "#A5ADBB",display: "flex", flexDirection: "row", justifyContent: "space-between", color: "lightgray", fontSize: "16px" }}>
+                <p style={{ textAlign: "left", color: "#A5ADBB" }}>Premium pepperoni and cheese is made with real mozzarella on original hand-tossed crust. </p>
+                <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", color: "#A5ADBB", fontSize: "16px" }}>
                     <p>265kcal</p>
                     <p>P/F/C: 12/10/31</p>
                     <p>53.8°C</p>

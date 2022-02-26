@@ -28,9 +28,8 @@ export const MoreCard = ({ text = "React - The Complete Guide", colorVariant = "
             position: "relative",
             fontFamily: "DM Serif Display"
         }}>
-            <div style={{color: "white", fontSize: "26px", padding: "1em"}}>{text}
-            </div>
-            {icon}
+            <div style={{color: "white", fontSize: "26px", padding: "1em"}}>{text} </div>
+            <div style={{position: "absolute", top: "1%"}}>{icon}</div>
             <Button style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.07)", height: "37px", width: "101px", border: "none", color: fontColor, bottom: "10%", right: "5%", position: "absolute" }} />
         </div>
     )

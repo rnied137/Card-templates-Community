@@ -1,0 +1,20 @@
+.button {
+  width: 114px;
+  height: 44px;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+}
+
+.card__container {
+  border-radius: 15px;
+  background-color: #ffffff;
+  width: 360px;
+}
+
+.info__icon {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+}

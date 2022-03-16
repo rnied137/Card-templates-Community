@@ -2,7 +2,7 @@
 https://www.figma.com/file/dZsRtG46UAOq9fayRU6ktZ/Card-Templates-(Community)?node-id=0%3A1
 
 ## Available Scripts
-
+card-templates-community.vercel.app
 
 Usage
 ComponentName, light or dark verison can be specified with light flag, light = {false} imply that card uses dark mode. It works only for WideCard as for now.
